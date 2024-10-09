@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-java-app
+    env: java
+    buildCommand: "./build.sh"
+    startCommand: "java -jar target/your-app.jar"
+    publishPath: target
